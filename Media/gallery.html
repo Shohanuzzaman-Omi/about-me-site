@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo gallery</title>
+    
+    <link rel="shortcut icon" href="szs-logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <h1 class="logo" style="color: rgb(255, 72, 72);">ZAMAN</h1>
+        <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a style="color: rgb(255, 72, 72); font-weight: 700;" href="#">Photos</a></li>
+          <li><a href="event-page.html">Events</a></li>
+          <li class="ctn"><a class="ctn" target="_blank" href="https://m.me/shhanuzzaman.omi.1/">Contact</a></li>
+        </ul>
+        <img src="menu-icon.png" alt="" class="menu-btn">
+    </nav>
+    
+    <div class="container">
+
+        <h1 class="title">Photos</h1>
+
+        <div class="image-container">
+            <img src="omi.jpeg" alt="">
+            <img src="omi2.jpg" alt="">
+            <img src="omi5.jpg"omi3 alt="">
+            <img src="omi6.jpg" alt="">
+            <img src="omi7.jpg" alt="">
+            <img src="omi8.jpg" alt="">
+            <img src="omi9.jpg" alt="">
+            <img src="omi10.jpg" alt="">
+            <img src="omi11.jpg" alt="">
+            <img src="opc.jpg" alt="">
+            <img src="omi12.jpg" alt="">
+            <img src="omi13.jpg" alt="">
+            <img src="omi14.jpg" alt="">
+            <img src="omi15.jpg" alt="">
+
+        </div>
+
+    </div>
+
+    <section class="footer">
+        <p>Barguna, Barishal, Bangladesh | Phone: 017******21| Email: contact@examp.com</p>
+        <p>Copyright © 2022 ZAMAN PROPERTY</p>
+      </section>
+    
+      <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+    
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+      </script>
+</body>
+</html>

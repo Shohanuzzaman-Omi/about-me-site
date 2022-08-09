@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My New Gaming Setup</title>
+  <link rel="shortcut icon" href="szs-logo.jpg" type="image/x-icon">
+
+  <link rel="stylesheet" href="birthday-event.css">
+  <link rel="stylesheet" href="font.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  
+  <nav class="navbar">
+    <h1 class="logo" style="color: rgb(255, 72, 72);">ZAMAN</h1>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="gallery.html">Photos</a></li>
+      <li><a href="event-page.html">Events</a></li>
+      <li class="ctn"><a class="ctn" target="_blank" href="https://m.me/shhanuzzaman.omi.1/">Contact</a></li>
+    </ul>
+    <img src="menu-icon.png" alt="" class="menu-btn">
+  </nav>
+
+  <section class="about">
+    <div class="content">
+      <img src="opc.jpg" alt="">
+      <div class="text">
+        <h1>My New Gaming Setup</h1>
+        <p>Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim. Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et culpa duis.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer">
+    <p>Barguna, Barishal, Bangladesh | Phone: 017******21| Email: contact@examp.com</p>
+    <p>Copyright © 2022 ZAMAN PROPERTY</p>
+  </section>
+
+  <script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu')
+    })
+  </script>
+
+</body>
+</html>

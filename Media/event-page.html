@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events</title>
+  <link rel="shortcut icon" href="szs-logo.jpg" type="image/x-icon">
+
+
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="font.css">
+</head>
+<body>
+  <nav class="navbar">
+    <h1 class="logo" style="color: rgb(255, 72, 72);">ZAMAN</h1>
+    <ul class="nav-links">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="gallery.html">Photos</a></li>
+      <li><a style="color: rgb(255, 72, 72); font-weight: 700;"  href="#">Events</a></li>
+      <li class="ctn"><a class="ctn" target="_blank" href="https://m.me/shhanuzzaman.omi.1/">Contact</a></li>
+    </ul>
+    <img src="Media/menu-icon.png" alt="" class="menu-btn">
+  </nav>
+
+  <section class="events">
+    <div class="title">
+      <h1>Events</h1>
+      <div class="line"></div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <img src="omi2.jpg" alt="">
+        <h4>15 September Is My Birthday</h4>
+        <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat...</p>
+        <a class="ctn" href="birthday-event.html">Learn More</a>
+      </div>
+      <div class="col">
+        <img src="opc2.jpg" alt="">
+        <h4>My New Gaming Setup</h4>
+        <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat...</p>
+        <a class="ctn" href="my-new-gaming-setup.html">Learn More</a>
+      </div>
+    </div>
+
+    <p style="text-align: center; margin-top: 50px;"><u>No More</u></p>
+  </section>
+  
+  <section class="footer">
+    <p>Barguna, Barishal, Bangladesh | Phone: 017******21| Email: contact@examp.com</p>
+    <p>Copyright © 2022 ZAMAN PROPERTY</p>
+  </section>
+
+  <script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu')
+    })
+  </script>
+</body>
+</html>

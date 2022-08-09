@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shohanuzzaman Omi</title>
+
+  <link rel="shortcut icon" href="Media/szs-logo.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="Media/index.css">
+  <link rel="stylesheet" href="Media/font.css">
+
+</head>
+<body>
+  <nav class="navbar">
+    <h1 class="logo">ZAMAN</h1>
+    <ul class="nav-links">
+      <li><a style="color: rgb(255, 72, 72); font-weight: 700;" href="#">Home</a></li>
+      <li><a href="Media/about.html">About</a></li>
+      <li><a href="Media/gallery.html">Photos</a></li>
+      <li><a href="Media/event-page.html">Events</a></li>
+      <li class="ctn"><a class="ctn" target="_blank" href="https://m.me/shhanuzzaman.omi.1/">Contact</a></li>
+    </ul>
+    <img src="Media/menu-icon.png" alt="" class="menu-btn">
+  </nav>
+  <header>
+    
+    <div class="header-content">
+      <h2>Hi, Assalamu Oyalaikum</h2>
+      <div class="line"></div>
+      <h1>Shohanuzzaman Omi</h1>
+      <a href="https://www.facebook.com/shohanuzzaman.omi.1/" class="ctn">Follow me</a>
+
+    </div>
+  </header>
+
+  <section class="events">
+    <div class="title">
+      <h1>Upcoming Events</h1>
+      <div class="line"></div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <img src="Media/omi2.jpg" alt="">
+        <h4>15 September Is My Birthday</h4>
+        <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat...</p>
+        <a class="ctn" href="Media/birthday-event.html">Learn More</a>
+      </div>
+      <div class="col">
+        <img src="Media/opc2.jpg" alt="">
+        <h4>My New Gaming Setup</h4>
+        <p>Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat...</p>
+        <a class="ctn" href="Media/my-new-gaming-setup.html">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!--Footer-->
+  <section class="footer">
+    <p>Barguna, Barishal, Bangladesh | Phone: 017******21| Email: contact@examp.com</p>
+    <p>Copyright © 2022 ZAMAN PROPERTY</p>
+  </section>
+
+  <script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu')
+    })
+  </script>
+
+  
+</body>
+</html>
